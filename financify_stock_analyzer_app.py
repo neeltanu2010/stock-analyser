@@ -11,7 +11,7 @@ import yfinance as yf
 
 # =====================================================
 # FINANCIFY STOCK ANALYZER
-# Free premium hook tool for Financify blog
+# Free premium tool for Financify blog
 # =====================================================
 
 st.set_page_config(
@@ -1048,7 +1048,7 @@ st.markdown(
         <div class="hero-title">Analyze a stock like a <span>business</span>, not like a lottery ticket.</div>
         <div class="hero-subtitle">
             A premium free stock-quality lab that checks profitability, ROE, ROCE, cash flow, debt, growth, valuation comfort,
-            bubble smell, and a Warren-style moat lens. Built to hook users, build trust, and guide them toward deeper Financify tools.
+            bubble smell, and a Warren-style moat lens.
         </div>
         <div class="hero-pills">
             <div class="pill">Financify Score</div>
@@ -1280,7 +1280,7 @@ with tab4:
 
 with tab5:
     report = build_report(symbol, name, sector, industry, metrics, scores, verdict_title, verdict_text, strict_items, bubble_notes)
-    st.markdown("<div class='glass-card'><div class='section-title'>Shareable Mini Report</div><div class='section-subtitle'>This is a traffic hook. Users can share the output and bring others back to your blog tools.</div>", unsafe_allow_html=True)
+    st.markdown("<div class='glass-card'><div class='section-title'>Shareable Mini Report</div><div class='section-subtitle'></div>", unsafe_allow_html=True)
     st.text_area("Copy report", value=report, height=390)
     st.download_button(
         "⬇️ Download stock analysis report",
@@ -1326,7 +1326,7 @@ st.markdown(
     <div class="cta-card">
         <h3>Want the full Financify deep scan?</h3>
         <p>
-        This free analyzer is built to educate and hook users. For deeper analysis, connect it with your advanced Financify tools:
+        This free analyzer is built to educate users. For deeper analysis, connect it with your advanced Financify tools:
         Honey Scanner, Bubble Sniffer, DCF Calculator, Intrinsic Value Calculator and Hive Cycle Predictor.
         </p>
         <p><b>Free tool:</b> quick analysis and learning. <b>Pro tools:</b> deeper scans, usage limits, advanced scoring, and full report layers.</p>
